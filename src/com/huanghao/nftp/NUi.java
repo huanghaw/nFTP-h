@@ -15,7 +15,7 @@ import javax.swing.JButton;
 import java.awt.Font;
 import java.awt.Color;
 
-public class ndUI extends JFrame {
+public class NUi extends JFrame {
 
 	private JPanel contentPane;
 	private final JPanel panel_4 = new JPanel();
@@ -28,7 +28,7 @@ public class ndUI extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ndUI frame = new ndUI();
+					NUi frame = new NUi();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -40,7 +40,7 @@ public class ndUI extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public ndUI() {
+	public NUi() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
